@@ -8,7 +8,7 @@ function Home() {
     <div id='home' className=' flex min-h-screen w-full items-center justify-center '>
       <div className='flex flex-col items-center justify-center gap-8 p-5 text-center'>
         <div className='flex items-center justify-center'>
-            <img src="/dp.jpg" className=' h-[100px] w-[100px] rounded-full object-cover p-0 sm:h-[350px] sm:w-[400px] object-center '/>
+            <img src="/dp.jpg" className=' h-[80px] w-[80px] rounded-full object-cover p-0 sm:h-[300px] sm:w-[300px] object-center '/>
 
         </div>
 

@@ -37,7 +37,7 @@ function HeaderLeft() {
         <BiBriefcase className='text-2xl'/>
         <span className='text-xs'>Experience</span>
       </a>
-      <a href='#project'className='flex flex-col'>
+      <a href='#projects'className='flex flex-col'>
         <BiCode className='text-2xl'/>
         <span className='text-xs'>Projects</span>
       </a>

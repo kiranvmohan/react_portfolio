@@ -37,7 +37,7 @@ function Project() {
   ]
 
   return (
-    <section id='project' className='min-h-screen w-full flex flex-col items-center justify-center py-20 px-6 sm:px-10 lg:px-16 xl:px-24'>
+    <section id='projects' className='min-h-screen w-full flex flex-col items-center justify-center py-20 px-6 sm:px-10 lg:px-16 xl:px-24'>
       <div className='text-center mb-16'>
         <h2 className='text-4xl sm:text-5xl font-light tracking-tight text-gray-900'>
           Featured <span className='text-blue-600 font-normal'>Projects</span>
@@ -54,7 +54,7 @@ function Project() {
             <div>
               <h3 className='text-2xl font-bold text-gray-900'>{project.title}</h3>
 
-              {/* Tech Stack Badges */}
+          
               <div className='flex flex-wrap gap-1.5 mt-3 mb-4'>
                 {project.stack.map((tech, i) => (
                   <span
@@ -71,7 +71,7 @@ function Project() {
               </p>
             </div>
 
-            {/* Bottom Actions */}
+       
             <div className='flex items-center gap-4 pt-6 mt-6 border-t border-gray-100'>
               {project.liveLink && (
                 <a
